@@ -8,7 +8,6 @@ __POP_OUTPUT= "$POPCLIP_TEXT"
 for i in $(seq 1 5); do
   __SALT=$(/bin/echo -n $(date +%s) | /usr/bin/openssl dgst -sha512 | awk '{print $1}')
   __POP_OUTPUT=$(/bin/echo -n "${__POP_OUTPUT} ${__SALT}" | /usr/bin/openssl dgst -sha512)
-  # echo $__POP_OUTPUT
 done
 
 echo $__POP_OUTPUT | awk '{print $1}'
