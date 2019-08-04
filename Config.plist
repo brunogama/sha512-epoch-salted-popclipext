@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+      <key>After</key>
+      <string>paste-result</string>
+			<key>Image File</key>
+			<string>lock.png</string>
+			<key>Shell Script File</key>
+			<string>hash-it.sh</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<string>Salted SHA512</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Outputs SHA512 Hash using UNIX Epoch as salting parameter.</string>
+	<key>Extension Identifier</key>
+	<string>gama.extension.SHA512-epoch</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Salted SHA512</string>
+	</dict>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>
