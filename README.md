@@ -1,4 +1,4 @@
-# Haxx0r SHA512 PopClip Extension
+# SHA512 PopClip Extension
 
 A complicated way to print hashed sha512 text.
 
